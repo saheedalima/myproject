@@ -51,7 +51,7 @@ class _LoginPage_2State extends State<LoginPage_2> {
                       hintText: "enter your password",
                       labelText: "password",
                       suffixIcon: IconButton(onPressed: (){
-                        setState(() {
+                        setState(() { //by changing the state
                           if(showpwd){
                             showpwd== false;
                           }
